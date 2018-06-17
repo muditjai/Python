@@ -1,1 +1,7 @@
 .idea/*
+
+*/dist/
+
+*/*.egg-info/
+
+*/.cache/
