@@ -5,3 +5,9 @@
 */*.egg-info/
 
 */.cache/
+
+*/.eggs/
+
+*pycache*
+
+*pytest_cache*
