@@ -44,6 +44,9 @@ class NameTranslator(object):
     def _validate_lang(self, city_name):
         return True
 
+    def get_all_available_cities(self):
+        return list(self._source_to_ir_map.keys())
+
     def translate(self, city_name):
         if not self._validate_lang(city_name):
             raise ValueError("Input city_name language invalid")
